@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1 onclick="showMessage()">Top char</h1>
+        <ul id="playlist">
+            <li id="song1"></li>
+            <li id="song2"></li>
+            <li id="song3"></li>
+        </ul>
+        <script>
+             function showMessage(){
+            var s1 = document.getElementById("song1");
+            var s2 = document.getElementById("song2");
+            var s3 = document.getElementById("song3");
+            s1.innerHTML="เรื่อเล็ก";
+            s2.innerHTML="คำถาม";
+            s3.innerHTML="โปรดเถอะ";
+             }
+        </script>
+    </body>
+</html>

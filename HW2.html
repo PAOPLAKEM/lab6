@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+    function changecolor1() {
+        let n = document.getElementById("N");
+        n.style.color = "Green" ;
+    }
+    function changecolor2() {
+        let a = document.getElementById("A");
+        a.style.color = "Green" ;
+        
+    }
+    function changecolor3() {
+        let b = document.getElementById("BD");
+        b.style.color = "Green" ;
+
+    }
+    </script>
+</head>
+<body>
+<form>
+    Name: <input type="text" id="N" onfocusout="changecolor1()">
+    Age: <input type="text" id="A" onfocusout="changecolor2()">
+    Birthdate: <input type="text" id="BD" onfocusout="changecolor3()">
+</form>
+</body>
+</html>
